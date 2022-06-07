@@ -7,3 +7,46 @@ body {
 a {
     text-decoration: none;
 }
+
+/* Header */
+
+#top {
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#top figure {
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 1.5rem;
+}
+
+#top img {
+    height: 2.5rem;
+}
+
+span {
+    font-weight: normal;
+    color: darkgrey;
+}
+
+#top nav {
+    display: flex;
+    align-items: center;
+    margin-right: 1.5rem;
+}
+
+#top ul {
+    display: flex;
+    list-style: none;
+}
+
+#top li {
+    padding-left: 1rem;
+}
+
+#top a {
+    color: inherit;
+}
