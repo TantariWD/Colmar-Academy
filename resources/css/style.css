@@ -1,7 +1,8 @@
 body {
     font-family: Verdana, sans-serif;
-    color: #6a6a6a;
+    color: #4a4a4a;
     margin: 0;
+    box-sizing: border-box;
 }
 
 a {
@@ -62,10 +63,25 @@ section.banner {
 
 .banner img {
     width: 60%;
-    margin: 2rem 1.5rem;
+    margin: 2rem 3rem 2rem 1.5rem;
+}
+
+.banner article {
+    padding-right: 1.5rem;
 }
 
 .banner h1 {
     font-size: 2em;
     margin: 0;
+}
+
+.banner h4 {
+    margin-bottom: 2rem;
+}
+
+.button {
+    text-align: center;
+    color: white;
+    background-color: #4a4a4a;
+    padding: 0.5rem 0;
 }
