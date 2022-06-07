@@ -50,3 +50,22 @@ span {
 #top a {
     color: inherit;
 }
+
+/* Banner */
+
+section.banner {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #d7d7d7;
+}
+
+.banner img {
+    width: 60%;
+    margin: 2rem 1.5rem;
+}
+
+.banner h1 {
+    font-size: 2em;
+    margin: 0;
+}
