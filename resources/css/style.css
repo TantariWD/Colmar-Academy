@@ -1,7 +1,12 @@
 body {
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #4a4a4a;
     box-sizing: border-box;
+}
+
+p {
+    font-size: 0.85rem;
+    line-height: 1.5;
 }
 
 nav {
@@ -18,13 +23,19 @@ li {
     padding-left: 1rem;
 }
 
-.media {
-    max-width: 100%;
-    width: 60%;
-    padding: 2rem 1.5rem;
+.fill {
+    background-color: #d7d7d7;
 }
 
-/* Header */
+.left {
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    padding: 2rem 1.5rem;
+    border-right: solid #d7d7d7 thin;
+}
+
+/* Header Specific */
 
 header#top {
     display: flex;
@@ -52,16 +63,17 @@ span {
     color: #c3c3c3;
 }
 
-/* Banner */
+/* Banner Specific */
 
 section.banner {
     display: flex;
-    background-color: #d7d7d7;
+}
+
+.banner figure {
+    margin: 0;
 }
 
 .banner article {
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     margin: 0 1.5rem;
     max-width: 22rem;
@@ -69,7 +81,7 @@ section.banner {
 
 .banner h1 {
     margin: 0;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
 }
 
 .banner h4 {
@@ -85,3 +97,55 @@ section.banner {
 }
 
 /* Campus Info */
+
+section#campus {
+    display: flex;
+    background-color: #efefef;
+}
+
+.left h2 {
+    margin: 2rem 0 0;
+}
+
+.left p {
+    margin: 1.5rem 0 0;
+}
+
+.right {
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.info {
+    border-bottom: solid #d7d7d7;
+    max-width: 100%;
+    display: flex;
+}
+
+.info img {
+    max-width: 35%;
+    margin: 1rem;
+}
+
+.info-cta {
+    max-width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-cta h4 {
+    margin: 0;
+    font-size: 1.20rem;
+}
+
+.info-cta p {
+    margin: 0.5rem 0;
+}
+
+.info-cta a {
+    font-size: 0.85rem;
+    color: #6666ff;
+}
