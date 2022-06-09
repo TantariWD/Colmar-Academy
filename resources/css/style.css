@@ -1,0 +1,47 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    color: #4a4a4a;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin-right: 1.5rem;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    padding-left: 1rem;
+}
+
+/* Header */
+
+header#top {
+    display: flex;
+    justify-content: space-between;
+    height: 4rem;
+    width: 100%;
+}
+
+header#top figure {
+    display: flex;
+    align-items: center;
+    margin-left: 1.5rem;
+}
+
+#top img {
+    height: 3rem;
+}
+
+#top h3 {
+    font-weight: 800;
+}
+
+span {
+    font-weight: normal;
+    color: #c3c3c3;
+}
