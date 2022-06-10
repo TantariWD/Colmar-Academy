@@ -153,3 +153,42 @@ section#campus {
     color: #45a1ff;
     font-weight: 600;
 }
+
+/* Online Specific */
+
+section#online h2 {
+    margin: 0;
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.class-lg-cta {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 2.5rem;
+    justify-content: center;
+}
+
+.class-cta {
+    max-width: 20rem;
+    background-color: white;
+    margin: 2rem;
+}
+
+.class-cta img {
+    max-width: 20rem;
+}
+
+.class-info {
+    padding: 1rem 1rem 1.5rem;
+}
+
+.class-info h4 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.class-info p {
+    margin: 0.5rem 0 0;
+}
