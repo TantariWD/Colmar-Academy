@@ -225,3 +225,22 @@ section#thesis h2 {
 #thesis .info {
     border-left: solid #d7d7d7 thin;
 }
+
+/* Footer Specific */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: solid #d7d7d7 thin;
+    background-color: #efefef;
+    padding: 1rem 0rem 3rem 1.5rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer ul {
+    margin: 0;
+    font-size: 0.8rem;
+}
