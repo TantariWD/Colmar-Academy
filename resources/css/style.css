@@ -4,6 +4,8 @@ body {
     box-sizing: border-box;
 }
 
+/* Multi-Styles */
+
 p {
     font-size: 0.85rem;
     line-height: 1.5;
@@ -33,6 +35,40 @@ li {
     max-width: 60%;
     padding: 2rem 1.5rem;
     border-right: solid #d7d7d7 thin;
+}
+
+.right {
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.info {
+    border-bottom: solid #d7d7d7;
+    max-width: 100%;
+    display: flex;
+}
+
+.info img {
+    max-width: 35%;
+    margin: 1rem;
+}
+
+.info-cta {
+    max-width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-cta h4 {
+    margin: 0;
+    font-size: 1.20rem;
+}
+
+.info-cta p {
+    margin: 0.5rem 0;
 }
 
 /* Header Specific */
@@ -96,7 +132,7 @@ section.banner {
     background-color: #4a4a4a;
 }
 
-/* Campus Info */
+/* Campus Specific */
 
 section#campus {
     display: flex;
@@ -105,47 +141,15 @@ section#campus {
 
 .left h2 {
     margin: 2rem 0 0;
+    font-size: 2rem;
 }
 
 .left p {
     margin: 1.5rem 0 0;
 }
 
-.right {
-    max-width: 40%;
-    display: flex;
-    flex-direction: column;
-    margin-top: 1rem;
-}
-
-.info {
-    border-bottom: solid #d7d7d7;
-    max-width: 100%;
-    display: flex;
-}
-
-.info img {
-    max-width: 35%;
-    margin: 1rem;
-}
-
-.info-cta {
-    max-width: 65%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.info-cta h4 {
-    margin: 0;
-    font-size: 1.20rem;
-}
-
-.info-cta p {
-    margin: 0.5rem 0;
-}
-
 .info-cta a {
     font-size: 0.85rem;
-    color: #6666ff;
+    color: #45a1ff;
+    font-weight: 600;
 }
