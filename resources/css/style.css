@@ -192,3 +192,36 @@ section#online h2 {
 .class-info p {
     margin: 0.5rem 0 0;
 }
+
+/* Thesis Exhibit */
+
+section#thesis {
+    background-color: #efefef;
+}
+
+section#thesis h2 {
+    margin: 0;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.thesis-cta {
+    display: flex;
+}
+
+#thesis .left {
+    border: none;
+}
+
+.left h4 {
+    font-size: 1.2rem;
+    margin: 1.5rem 0 0;
+}
+
+#thesis .right {
+    margin-top: 2rem;
+}
+
+#thesis .info {
+    border-left: solid #d7d7d7 thin;
+}
